@@ -1,5 +1,5 @@
 package entity;
-/**
+/*
  * Seat Entity Class
  * This class represents a seat available for a particular movie show.
  * It stores seat details such as seat ID, show ID, seat number,
@@ -10,7 +10,7 @@ public class Seat {
         private int showId;
         private String seatNumber;
         private boolean isBooked;
-      /**
+      /*
      * Parameterized Constructor
      * Initializes seat details.
         */
