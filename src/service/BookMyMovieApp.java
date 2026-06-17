@@ -41,7 +41,7 @@ public class BookMyMovieApp {
         System.out.println("Enter number of seats:");
         int numberOfSeats = sc.nextInt();
 
-        sc.nextLine(); // buffer clear
+        sc.nextLine(); 
 
         // Step 5: Enter seat numbers
         System.out.println("Enter seat numbers (comma separated, e.g., A1,A2): ");
