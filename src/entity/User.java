@@ -1,11 +1,23 @@
 package entity;
-
+/*
+ * User Entity Class
+ * This class stores user information required for
+ * movie ticket booking in the BookMyMovie application.
+ */
 public class User {
         private int userId;
         private String name;
         private String email;
         private String phone;
-
+/*
+     * Parameterized Constructor
+     * Initializes user details.
+     *
+     * @param userId Unique user ID
+     * @param name User's name
+     * @param email User's email address
+     * @param phone User's phone number
+     */
         public User(int userId, String name, String email, String phone) {
             this.userId = userId;
             this.name = name;
