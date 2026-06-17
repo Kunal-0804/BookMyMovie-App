@@ -1,5 +1,5 @@
 package entity;
-/**
+/*
  * Show Entity Class
  * This class stores information about a movie show,
  * including movie details, theater details, show timing,
@@ -11,7 +11,7 @@ public class Show {
     private int theaterId;
     private String timing;
     private int availableSeats;
-  /**
+  /*
      * Parameterized Constructor
      * Initializes show details.
      */
