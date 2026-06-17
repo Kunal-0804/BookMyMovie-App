@@ -1,11 +1,19 @@
 package entity;
-
+/**
+ * Seat Entity Class
+ * This class represents a seat available for a particular movie show.
+ * It stores seat details such as seat ID, show ID, seat number,
+ * and booking status.
+ */
 public class Seat {
         private int seatId;
         private int showId;
         private String seatNumber;
         private boolean isBooked;
-
+      /**
+     * Parameterized Constructor
+     * Initializes seat details.
+        */
         public Seat(int seatId, int showId, String seatNumber, boolean isBooked) {
             this.seatId = seatId;
             this.showId = showId;
