@@ -1,12 +1,20 @@
 package entity;
-
+/**
+ * Show Entity Class
+ * This class stores information about a movie show,
+ * including movie details, theater details, show timing,
+ * and available seats.
+ */
 public class Show {
     private int showId;
     private int movieId;
     private int theaterId;
     private String timing;
     private int availableSeats;
-
+  /**
+     * Parameterized Constructor
+     * Initializes show details.
+     */
     public Show(int showId, int movieId, int theaterId, String timing, int availableSeats) {
         this.showId = showId;
         this.movieId = movieId;
