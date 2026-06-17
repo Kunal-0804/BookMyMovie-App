@@ -1,5 +1,5 @@
 package entity;
-/**
+/*
  * Movie Entity Class
  * This class stores information related to a movie
  * such as movie ID, title, genre, language, and duration.
@@ -10,7 +10,7 @@ public class Movie {
     private String genre;
     private String lang;
     private int duration;
-   /**
+   /*
      * Parameterized Constructor
      * Initializes movie details.
     */
