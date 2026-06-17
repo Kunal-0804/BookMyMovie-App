@@ -1,10 +1,18 @@
 package entity;
-
+/*
+ * Theater Entity Class
+ * This class stores information about movie theaters.
+ * It contains details such as theater ID, theater name,
+ * and location.
+ */
 public class Theater {
     private int theaterId;
     private String name;
     private String location;
-
+ /*
+     * Parameterized Constructor
+     * Initializes theater details.
+     */
     public Theater(int theaterId, String name, String location) {
         this.theaterId = theaterId;
         this.name = name;
